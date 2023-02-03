@@ -1,1 +1,1 @@
-__all__ = ["AnimalClass", "DogClass"]
+__all__ = ["AnimalClass", "DogClass", "CatClass"]

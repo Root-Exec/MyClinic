@@ -1,13 +1,13 @@
 from ClinicClasses.AnimalClasses.AnimalClass import Animal
 
 
-class Dog(Animal):
+class Cat(Animal):
     breed: str
     vaccines = {}
 
-    def __init__(self, dog_breed, animal_type, name, age):
+    def __init__(self, cat_breed, animal_type, name, age):
         super().__init__(animal_type, name, age)
-        self.breed = dog_breed
+        self.breed = cat_breed
 
     def print_pet_info(self):
         print(f"Name: {self.name}\nType: {self.type}\nBreed: {self.breed}\nAge: {self.age}\n")

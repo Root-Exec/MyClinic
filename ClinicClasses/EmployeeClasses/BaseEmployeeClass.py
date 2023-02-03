@@ -8,14 +8,13 @@ class Employee:
     ZipCode: str
 
     TelephoneNumber: str
+    StartEmployment: str
 
-    Salary: int
-
-    def __int__(self, fname, mname, lname):
+    def __int__(self, fname, mname, lname, phone_number):
         self.FirstName = fname
         self.MiddleName = mname
         self.LastName = lname
-        self.Salary = 0
+        self.TelephoneNumber = phone_number
 
     def update_address(self, address, city, zipcode):
         self.Address = address
